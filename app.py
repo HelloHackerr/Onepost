@@ -12,13 +12,13 @@ CORS(app)
 # ============================================
 # PUT YOUR API KEYS HERE
 # ============================================
-GEMINI_API_KEY = "your_gemini_api_key_here"
-YOUTUBE_CLIENT_ID = "your_youtube_client_id_here"
-YOUTUBE_CLIENT_SECRET = "your_youtube_client_secret_here"
-YOUTUBE_REFRESH_TOKEN = "your_youtube_refresh_token_here"
-META_PAGE_TOKEN = "your_meta_page_token_here"
-META_PAGE_ID = "your_facebook_page_id_here"
-INSTAGRAM_ACCOUNT_ID = "your_instagram_account_id_here"
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
+YOUTUBE_CLIENT_ID = os.environ.get("YOUTUBE_CLIENT_ID")
+YOUTUBE_CLIENT_SECRET = os.environ.get("YOUTUBE_CLIENT_SECRET")
+YOUTUBE_REFRESH_TOKEN = os.environ.get("YOUTUBE_REFRESH_TOKEN")
+META_PAGE_TOKEN = os.environ.get("META_PAGE_TOKEN")
+META_PAGE_ID = os.environ.get("META_PAGE_ID")
+INSTAGRAM_ACCOUNT_ID = os.environ.get("INSTAGRAM_ACCOUNT_ID")
 # ============================================
 
 # Configure Gemini

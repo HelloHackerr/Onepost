@@ -3,7 +3,7 @@ import { useState, useRef, useCallback } from "react";
 // ============================================
 // CHANGE THIS TO YOUR RENDER URL AFTER DEPLOY
 // ============================================
-const API_URL = "https://your-onepost-backend.onrender.com";
+const API_URL = "https://onepost-backend-rn46.onrender.com";
 // ============================================
 
 const PLATFORM_INFO = {
